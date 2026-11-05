@@ -453,3 +453,8 @@ ul.facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 
 /* ── 照顧者頁「邀請您參加研究」標題右側放「馬上報名」按鈕（研究者 2026-11-05）── */
 #join .row{align-items:center}
+
+/* ── 首頁首圖改成十指交握照片（研究者 2026-11-05）：照片左側偏暗，加左淡右透的淺色罩，維持黑字可讀 ── */
+.hero-img.hands{transform:none;object-position:center 45%}
+.hero-veil .hero-bg{background:linear-gradient(90deg,rgba(255,253,251,.94) 0%,rgba(255,253,251,.82) 38%,rgba(255,253,251,.25) 62%,rgba(255,253,251,0) 78%)}
+@media (max-width:700px){.hero-veil .hero-bg{background:linear-gradient(180deg,rgba(255,253,251,0) 0%,rgba(255,253,251,.85) 35%,rgba(255,253,251,.94) 100%)}}
