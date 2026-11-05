@@ -475,3 +475,17 @@ ul.facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 .who-in{display:grid;gap:12px;margin-block:8px 4px;scroll-margin-top:84px}
 .who-in h3{font-size:17px;font-weight:700;color:var(--page)}
 .who-in .org-cond li{color:var(--ink)}
+
+/* ── 邀請區改淺橘底，黑字（研究者 2026-11-05 從 v8 三選一選 8-1）── */
+#join .cta-in{background:var(--primary-soft);color:var(--ink)}
+#join .cta-in p{color:#4A4640}
+#join .who-in h3{color:var(--ink)}
+
+/* ── 區塊間距縮小（研究者 2026-11-05）：section 96→64、色帶 88→64、深淺色 cta 外距與內距一起收 ── */
+section{padding-block:64px}
+.band{padding-block:64px}
+.cta{padding-block:16px}
+.cta-in{padding-block:48px}
+.intro{margin-bottom:36px}
+.band .intro{margin-bottom:28px}
+@media (max-width:700px){section{padding-block:48px}.band{padding-block:48px}.cta-in{padding-block:36px}}
