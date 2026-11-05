@@ -470,3 +470,8 @@ ul.facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 
 /* ── 照顧者頁首圖用十指交握照片（研究者 2026-11-05），沿用首頁的淺色罩 ── */
 .hero-img.hands{object-position:center 45%}
+
+/* ── 「誰可以參加」併入深色邀請區（研究者 2026-11-05）── */
+.who-in{display:grid;gap:12px;margin-block:8px 4px;scroll-margin-top:84px}
+.who-in h3{font-size:17px;font-weight:700;color:var(--page)}
+.who-in .org-cond li{color:var(--ink)}
