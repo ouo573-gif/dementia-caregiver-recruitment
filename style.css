@@ -450,3 +450,6 @@ ul.facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 .pc4 .illu{background:color-mix(in srgb,var(--yellow) 22%,var(--surface))} .pc4 .who{color:var(--primary)}
 @media (max-width:1100px){.pain4{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.pain4{grid-template-columns:1fr}}
+
+/* ── 照顧者頁「邀請您參加研究」標題右側放「馬上報名」按鈕（研究者 2026-11-05）── */
+#join .row{align-items:center}
