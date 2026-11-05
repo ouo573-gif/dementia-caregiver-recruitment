@@ -467,3 +467,6 @@ ul.facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 .hero-img.photo{transform:none;object-position:center 55%}
 .hero-veil .hero-bg{background:linear-gradient(90deg,rgba(255,253,251,.94) 0%,rgba(255,253,251,.82) 38%,rgba(255,253,251,.25) 62%,rgba(255,253,251,0) 78%)}
 @media (max-width:700px){.hero-veil .hero-bg{background:linear-gradient(180deg,rgba(255,253,251,0) 0%,rgba(255,253,251,.85) 35%,rgba(255,253,251,.94) 100%)}}
+
+/* ── 照顧者頁首圖用十指交握照片（研究者 2026-11-05），沿用首頁的淺色罩 ── */
+.hero-img.hands{object-position:center 45%}
