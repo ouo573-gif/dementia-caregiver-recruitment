@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/itrace", "destination": "https://itracerecruit.vercel.app/" }
+  ]
+}
