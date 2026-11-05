@@ -451,8 +451,17 @@ ul.facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 @media (max-width:1100px){.pain4{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.pain4{grid-template-columns:1fr}}
 
-/* ── 照顧者頁「邀請您參加研究」標題右側放「馬上報名」按鈕（研究者 2026-11-05）── */
-#join .row{align-items:center}
+/* ── 照顧者頁「邀請您參加研究」：文字在左、「馬上報名」按鈕在右並垂直置中（研究者 2026-11-05）── */
+.cta-split{grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:24px 56px}
+.cta-split .cta-copy{display:grid;gap:12px;max-width:70ch}
+.cta-split .cta-copy p{margin-top:0}
+@media (max-width:700px){.cta-split{grid-template-columns:1fr}.cta-split > .pbtn{justify-self:start}}
+
+/* ── 研究說明三張目標卡：用 subgrid 讓編號、標題、說明三列在各卡同高對齊（研究者 2026-11-05）── */
+.goals{row-gap:12px}
+.goals .goal{grid-row:span 3;grid-template-rows:subgrid;row-gap:10px;align-content:start;min-height:0}
+.goals .goal > div{display:contents}
+.goals .goal br{display:none}
 
 /* ── 首頁首圖用長者拼圖照片（研究者 2026-11-05）：照片左側是深色木桌，加左淡右透的淺色罩，維持黑字可讀 ── */
 .hero-img.photo{transform:none;object-position:center 55%}
