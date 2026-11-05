@@ -492,3 +492,8 @@ section{padding-block:64px}
 
 /* ── 三校 logo 列往下移（研究者 2026-11-05）：與上方內容距離 40→64px ── */
 .team{margin-top:64px}
+
+/* ── 首屏按鈕（研究者 2026-11-05 選 9-3，主按鈕字改白）：主按鈕放大的橘色實心白字，次按鈕改成加底線的文字連結 ── */
+.hero-cta{align-items:center;gap:20px}
+.hero-cta .pill-light{background:var(--primary);color:#fff;font-size:17px;font-weight:700;min-height:60px;padding:8px 32px;box-shadow:0 16px 30px -14px rgba(150,60,0,.65)}
+.hero-cta .pill-ghost{background:transparent;box-shadow:none;backdrop-filter:none;min-height:0;padding:6px 4px;color:var(--ink);font-size:16px;font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
