@@ -497,3 +497,6 @@ section{padding-block:64px}
 .hero-cta{align-items:center;gap:20px}
 .hero-cta .pill-light{background:var(--primary);color:#fff;font-size:17px;font-weight:700;min-height:60px;padding:8px 32px;box-shadow:0 16px 30px -14px rgba(150,60,0,.65)}
 .hero-cta .pill-ghost{background:transparent;box-shadow:none;backdrop-filter:none;min-height:0;padding:6px 4px;color:var(--ink);font-size:16px;font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+
+/* ── 首頁兩個身分按鈕同等份量（研究者 2026-11-05）：居家服務機構改深綠實心白字，大小與橘色按鈕一致；照顧者頁不受影響 ── */
+.home .hero-cta .pill-ghost{background:var(--green-ink);color:#fff;font-size:17px;font-weight:700;min-height:60px;padding:8px 32px;text-decoration:none;box-shadow:0 16px 30px -14px rgba(30,80,70,.6)}
