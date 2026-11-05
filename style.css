@@ -489,3 +489,6 @@ section{padding-block:64px}
 .intro{margin-bottom:36px}
 .band .intro{margin-bottom:28px}
 @media (max-width:700px){section{padding-block:48px}.band{padding-block:48px}.cta-in{padding-block:36px}}
+
+/* ── 三校 logo 列往下移（研究者 2026-11-05）：與上方內容距離 40→64px ── */
+.team{margin-top:64px}
